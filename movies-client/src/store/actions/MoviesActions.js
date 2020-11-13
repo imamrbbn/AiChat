@@ -59,6 +59,9 @@ export function SET_FETCH_ERROR(data) {
   }
 }
 
+// I prefer not to use Axios because of its slower performance.
+// But fetching data using Axios is already works 
+
 export function FETCH_SEARCH_MOVIES(key, page) {
   return (dispatch, getState) => {
     dispatch(SET_LOADING(true))
@@ -95,6 +98,7 @@ export function GET_MOVIE_DETAIL(key) {
     }
 }
 
+// in case using Axios
 
 // export function FETCH_SEARCH_MOVIES(key, page) {
 //   return (dispatch, getState) => {
