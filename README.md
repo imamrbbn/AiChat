@@ -1,6 +1,6 @@
 # Movies App
 
-Web application to search for movies and save them to favorites. The purpose of the project is to create a movie application using React JS with Single-page application (SPA) concept, optimized for the web interface and responsive, use SPA concets, to help users easily search for movies on the web. It is displayed with a search page and a favorites page, launches a details screen whenever a particular movie is selected, allowing the user to save favorites. This application fetches movie information using omdbapi.com web API.
+Web application to search for movies and save them to favorites. The purpose of the project is to create a movie application using React JS with Single-page application (SPA) concept, optimized for the web interface and responsive, to help users easily search for movies on the web. It is displayed with a search page and a favorites page, launches a details screen whenever a particular movie is selected, allowing the user to save favorites. This application fetches movie information using omdbapi.com web API.
 
 ## Getting Started
 
